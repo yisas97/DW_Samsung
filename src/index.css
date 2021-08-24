@@ -1,0 +1,486 @@
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: #FFFFFF;
+        width: 100%;
+    }
+    
+    header {
+        /* border: 1px solid red; */
+        padding: 20px 10px;
+        font-size: 15px;
+        /* height: 50px; */
+        overflow: hidden;
+    }
+    
+    header a {
+        text-decoration: none;
+        color: #0f0d0d;
+        line-height: 20px;
+        text-align: center;
+        float: left;
+        border-radius: 5px;
+        padding: 10px;
+        margin: auto;
+        font-weight: bold;
+    }
+    
+    header ul {
+        list-style: none;
+        margin: auto;
+    }
+    
+    .hero {
+        margin-top: 20px;
+        /* border: 1px solid red; */
+        color: #0f0d0d;
+        display: grid;
+        justify-items: center;
+        grid-template-areas: "hero-information  hero-image";
+        padding: 15px;
+        height: 600px;
+        align-items: center;
+    }
+    
+    .hero-information {
+        /* border: 1px solid red; */
+        grid-area: hero-information;
+        padding: 30px;
+    }
+    
+    .hero-image {
+        /* border: 1px solid red; */
+        grid-area: hero-image;
+    }
+    
+    .hero-image img {
+        height: 450px;
+        width: 100%;
+        border-radius: 10px;
+        image-rendering: auto;
+    }
+    
+    .introduccion {
+        text-align: center;
+        margin: auto;
+        margin-bottom: 30px;
+        width: 70%;
+        align-items: center;
+    }
+    
+    .introduccion h2 {
+        font-weight: bold;
+        color: black;
+        font-size: 3.33333333vw;
+        padding: 20px;
+    }
+    
+    .introduccion p {
+        font-size: 18px;
+    }
+    
+    .boton-carousel {
+        text-align: center;
+        width: 100%;
+    }
+    
+    .btn-circle {
+        width: 30px;
+        height: 30px;
+        padding: 6px 6px;
+        border-radius: 10px;
+        text-align: center;
+        font-size: 6px;
+        line-height: 1;
+    }
+    
+    .contenedor-video {
+        width: auto;
+        max-width: 120em;
+        padding: 2em;
+        overflow: hidden;
+    }
+    /* .item-carousel {
+    display: none;
+    transition: 2s;
+    max-height: 100vh;
+} */
+    
+    .contenedor-video .intro-videos {
+        width: 200%;
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-between;
+        align-items: center;
+        padding: 2em;
+        transition: all .3s ease;
+        transform: translateX(0%);
+    }
+    
+    .intro-videos video {
+        width: calc( 100% / 2 - 2em);
+        min-height: 10vh;
+        /* object-fit: cover; */
+    }
+    /* .barras {
+        display: flex;
+        position: relative;
+        width: 100%;
+        justify-content: center;
+        margin-bottom: 15px;
+    }
+
+    .barra {
+        cursor: pointer;
+        height: 3px;
+        width: 25px;
+        margin: 0 0.2px;
+        background: #2C072A;
+        display: inline-block;
+        margin-left: 0.5em;
+    } */
+    /* .animation {
+        animation-name: animation;
+        animation-duration: 1.5s;
+    } */
+    /* La propiedad CSS animation-name especifica una lista de
+animaciones que se deben aplicar al elemento seleccionado.
+Cada nombre indica un @keyframes esta regla define los valores
+de las propiedades de la secuencia de animación. */
+    /* @keyframes animation {
+        from {
+            opacity: 0.4;
+        }
+        to {
+            opacity: 1;
+        }
+    } */
+    
+    .second-fila {
+        align-items: center;
+        text-align: center;
+        margin: auto;
+        width: 90%;
+    }
+    
+    .second-fila-information p {
+        width: 70%;
+        text-align: center;
+        margin: auto;
+        padding: 20px;
+        font-size: 18px;
+    }
+    
+    .second-fila-information h2 {
+        font-weight: bold;
+        color: black;
+        font-size: 48px;
+        padding: 20px;
+    }
+    
+    .second-fila .img-second {
+        margin: auto;
+        padding: 30px;
+    }
+    
+    .second-fila .img-second img {
+        max-width: 1300px;
+        margin: auto;
+    }
+    
+    .second-fila .letra-pequena p {
+        font-size: 10px;
+    }
+    
+    .second-fila .img-second-container {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .img-compt-second {
+        padding: 10px;
+    }
+    
+    .img-compt-second .img-fila-information {
+        padding: 10%;
+        text-align: center;
+    }
+    
+    .img-compt-second .img-fila-information p {
+        font-size: 18px;
+    }
+    
+    .img-compt-second .img-fila-information h2 {
+        font-size: 48px;
+    }
+    
+    .beneficios-title {
+        padding: 20px;
+    }
+    
+    .beneficios-title h2 {
+        text-align: center;
+        font-weight: bold;
+        font-size: 48px;
+    }
+    
+    .beneficios-entretenimiento {
+        width: 90%;
+        margin: auto;
+    }
+    
+    .beneficios-container {
+        display: flex;
+        flex-flow: row nowrap;
+        align-items: center;
+        width: 80%;
+        justify-content: center;
+        margin: auto;
+    }
+    
+    .beneficios-container .beneficios-entretenimiento-img {}
+    
+    .beneficios-container .beneficios-entretenimiento-info {
+        padding: 5px;
+    }
+    
+    .beneficios-entretenimiento .beneficios-title h2 {
+        font-size: 44px;
+    }
+    
+    .beneficios-container .beneficios-entretenimiento-info h2 {
+        font-size: 48px;
+        font-weight: bold;
+    }
+    
+    .beneficios-container .beneficios-entretenimiento-info p {
+        font-size: 18px;
+    }
+    
+    .galeria-imagenes {
+        width: 70%;
+        margin: auto;
+    }
+    
+    .galeria-imagenes-carrusel {
+        width: 100%;
+        padding: 10px 0;
+        overflow: hidden;
+        /* overflow-x: scroll; */
+        scroll-behavior: smooth;
+    }
+    
+    .carrusel-imagenes {
+        display: flex;
+        flex-wrap: nowrap;
+    }
+    
+    .imagenes {
+        min-width: 100%/13;
+        margin: 10px;
+        transition: .3s ease all;
+        padding: 10px;
+        z-index: 1;
+        /* box-shadow: 2px 2px 4px rgba(0, 0, 0, .3); */
+    }
+    
+    .imagenes.hover {
+        transform: scale(1.2);
+        transform-origin: center;
+    }
+    
+    .imagenes img {
+        max-width: 200px !important;
+        padding: 4px;
+        height: auto;
+        margin: 0%;
+        z-index: 1;
+        cursor: pointer;
+    }
+    
+    .galeria-container {
+        display: flex;
+        align-items: center;
+        position: relative;
+    }
+    
+    .galeria-container .prev,
+    .galeria-container .next {
+        position: absolute;
+        z-index: 500;
+        top: calc(50% -25%);
+        cursor: pointer;
+        color: #0f0d0d;
+    }
+    
+    .galeria-container .prev:hover,
+    .galeria-container .next:hover {
+        color: blue;
+    }
+    
+    .next {
+        padding: 5px;
+        right: 0;
+    }
+    
+    .prev {
+        padding: 5px;
+        left: 0;
+    }
+    /* Crear el model de las imagenes */
+    
+    .imagenes.active {
+        z-index: 0;
+        position: fixed;
+        background: #0f0d0d;
+        opacity: 0.8;
+        width: 100vw;
+        height: 100vh;
+        top: 0%;
+        left: 0%;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .imagenes.active img {
+        margin: auto;
+        width: 100%;
+        height: 100%;
+    }
+    /* model */
+    
+    .model {
+        position: fixed;
+        height: 100vh;
+        width: 100vw;
+        background-color: #0f0d0d;
+        opacity: 0.8;
+        top: 0%;
+        left: 0%;
+        visibility: hidden;
+        opacity: 0;
+        display: flex;
+        flex-wrap: wrap;
+        padding: 10px 20px;
+        justify-content: center;
+        transition: all 0.3s ease;
+        align-items: center;
+    }
+    
+    .container-model {
+        width: 90%;
+        height: 90%;
+        background-color: rgba(255, 255, 255, 0.8);
+        color: #0f0d0d;
+        position: relative;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .container-model img {
+        height: 100%;
+        width: 100%;
+        object-fit: contain;
+    }
+    
+    .btn-atras,
+    .btn-adelante {
+        color: #d40101;
+        font-size: 40px;
+    }
+    
+    .btn-atras {
+        left: 20px;
+    }
+    
+    .btn-adelante {
+        right: 20px;
+    }
+    
+    .btn-model {
+        width: 60px;
+        height: 60px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        cursor: pointer;
+        transform: translateY(-50%);
+        top: 50%;
+    }
+    
+    .btn:hover>i {
+        transform: scale(1.2);
+        transition: all 0.3s ease;
+    }
+    
+    .btn-cerrar {
+        color: aqua;
+        font-size: 30px;
+        position: absolute;
+        top: -15px;
+        right: -15px;
+        transition: all 0.3s ease;
+    }
+    
+    .btn-cerrar:hover {
+        color: aquamarine;
+        transform: scale(1.3);
+        cursor: pointer;
+    }
+    /* footer */
+    
+    .footer {
+        display: grid;
+        grid-template-areas: "col1 col2 col3 col4";
+        padding: 0;
+        margin: 0;
+        margin-bottom: 20px;
+        width: 100%;
+    }
+    
+    .footer-col1 {
+        grid-area: col1;
+    }
+    
+    .footer-col2 {
+        grid-area: col2;
+    }
+    
+    .footer-col3 {
+        grid-area: col3;
+    }
+    
+    .footer-col4 {
+        grid-area: col4;
+    }
+    
+    .footer .footer-col1,
+    .footer .footer-col2,
+    .footer .footer-col3,
+    .footer .footer-col4 {
+        padding: 10px;
+        border: 1px solid gray;
+    }
+    
+    .list-footer-col1 ul,
+    .list-footer-col2 ul,
+    .list-footer-col3 ul,
+    .list-footer-col4 ul {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .list-footer-col1 a,
+    .list-footer-col2 a,
+    .list-footer-col3 a,
+    .list-footer-col4 a {
+        text-decoration: none;
+        color: #0f0d0d;
+    }
+    
+    .list-footer-col1 h4,
+    .list-footer-col2 h4,
+    .list-footer-col3 h4,
+    .list-footer-col4 h4 {
+        font-weight: bold;
+    }
