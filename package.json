@@ -1,0 +1,27 @@
+{
+    "name": "venta",
+    "version": "1.0.0",
+    "main": "index.js",
+    "scripts": {
+        "start": "parcel index.html",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "description": "",
+    "dependencies": {
+        "babel-polyfill": "^6.26.0",
+        "live": "^0.1.25-beta.0",
+        "parcel-bundler": "^1.12.5"
+    },
+    "browserslist": [
+        "last 1 Chrome version"
+    ],
+    "devDependencies": {
+        "eslint": "^7.32.0"
+    },
+    "parserOptions": {
+        "sourceType": "module"
+    }
+}
